@@ -26,22 +26,12 @@
 
 ---
 
-## 🗓️ **Zero Calendar (my new project)**
-
-**An Open-Source AI-Powered Calendar for the Future of Scheduling**
-
-Zero Calendar is an open-source AI calendar solution that gives users the power to manage their schedule intelligently while integrating with external services like Google Calendar and other calendar providers. Our goal is to modernize and improve scheduling through AI agents to truly revolutionize how we manage our time.
-
-For more details, check out the [Zero Calendar repository](https://github.com/Zero-Calendar/zero-calendar).
-
----
-
 ## 🛠 **Roadmap & Feedback**
 
 🚨 **Note:** We no longer use GitHub issues for roadmap and feedback.  
 Please visit [System Prompts Roadmap & Feedback](https://systemprompts.featurebase.app/) to share your suggestions and track upcoming features.
 
-🆕 **LATEST UPDATE:** 15/05/2025 
+🆕 **LATEST UPDATE:** 06/06/2025 
 
 ## ❤️ Support the Project
 
@@ -66,7 +56,7 @@ Thank you for your support! 🙏
 ⚠️ **If you're an AI startup, make sure your data is secure.** Exposed prompts or AI models can easily become a target for hackers.
 
 🔐 **Interested in securing your AI systems?**  
-Check out **[ZeroLeaks](https://0leaks.vercel.app)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
+Check out **[ZeroLeaks](https://zeroleaks.lucknite.lol/)**, a service designed to help startups **identify and secure** leaks in system instructions, internal tools, and model configurations. **Get a free AI security audit** to ensure your AI is protected from vulnerabilities.
 
 
 **The company is mine, this is NOT a 3rd party AD.*
