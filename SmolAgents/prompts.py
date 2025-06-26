@@ -1,3 +1,6 @@
+# my prompt collection
+
+
 from typing import Dict, List, Any
 from dataclasses import dataclass
 from datetime import datetime
@@ -161,6 +164,43 @@ class PromptTemplates(BaseModel):
             
             Prefer functional programming style over imperative style in Rust. Use Option and Result combinators (map, and_then, unwrap_or, etc.) instead of pattern matching with if let or match when possible.
             
+
+            """
+
+    class RefineRewritePrompt(BaseModel):
+        @classmethod
+        def refine_rewrite(cls, prompt):
+            # Prompt Refinement Protocol
+            """
+            Role and Purpose: You are a Senior Prompt
+            Architect.
+            Your mission: diagnose weaknesses in a draft prompt, then deliver a clearly improved version that stays true to the author's original intent and audience.
+
+            Phase 1-Rapid Diagnosis
+
+            Summarise the draft prompt's goal and structure in one short paragraph. Then assess each of the following criteria using: Pass, Caution, or Fail. Add a one-line note explaining each rating.
+            Criteria:
+            1. Task Fidelity
+            2. Clarity and specificity
+            3. Context utilisation
+            4. Accuracy and Verifiability
+            5. Tone and Persona Consistency 6. Error Handling 7. Resource Efficiency (tokens /latency)
+            High-Priority Triggers (mark any that apply):
+            - Context Preservation - Intent Refinement - Error Prevention
+
+            Phase 2- Precision Rewrite
+
+            1. Apply improvements only where Caution or Fall was noted.
+            2. Preserve purpose, scope, and persona. 3. Use or introduce a numbered-step structure. 4. Optimise for brevity and clarity.
+            5. If any trigger was marked, explicitly show how you addressed it (e.g. added context, clarified intent, inserted fallback logic).
+
+            Deliverables
+            - Before/After micro-example (2 lines or less) showing a key improvement. If not applicable, give a one-sentence rationale.
+            - The revised prompt, enclosed in triple backticks for easy copy/paste.
+            Validation Checklist:
+            -Purpose and audience intact - Tone and style consistent ⁃ Clarity, logic, and structure improved - Trigger issues resolved
+
+            Say: "Ready for the draft prompt" to begin.
 
             """
 
